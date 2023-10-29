@@ -3,9 +3,14 @@ module.exports = {
   content: ["./build/**/*.{html,js}"],
   theme: {
     extend: { 
+        colors: {
+            logobgcolor: {
+                default: '#111827'
+            }
+        },
         screens: {
-            'widescreen': {'raw':'(min-aspect-ration: 3/2)'},
-            'tallscreen': {'raw':'(max-aspect-ration: 13/20)'},
+            'widescreen': {'raw':'(min-aspect-ratio: 3/2)'},
+            'tallscreen': {'raw':'(max-aspect-ratio: 13/20)'},
         },
         keyframes: {
             'open-menu': {
