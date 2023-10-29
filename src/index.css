@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 
-.logo-bg {
-    background: #111827;
-}
+@layer utilities {
+    .logo-bg {
+        background: #111827;
+    }
+    
+    .menu-bg {
+        background: #f3f3f3;
+    }
 
-.menu-bg {
-    background: #f3f3f3;
+    .section-min-height {
+        min-height: calc(100vh - 18px);
+    }
+    .toggle-btn {
+        @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+    }
 }
