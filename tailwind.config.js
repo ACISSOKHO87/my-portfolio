@@ -5,7 +5,7 @@ module.exports = {
     extend: { 
         colors: {
             logobgcolor: {
-                default: '#111827'
+                default: '#111827' 
             }
         },
         screens: {
