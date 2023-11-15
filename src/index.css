@@ -10,6 +10,6 @@
     } 
 
     .toggle-btn {
-        @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[360deg]
+        @apply [&>button::before]:translate-y-0 [&>button::before]:rotate-45 [&>button::after]:translate-y-0 [&>button::after]:-rotate-45 [&>button]:bg-transparent [&>button]:rotate-[360deg]
     }
 }
